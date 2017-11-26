@@ -64,7 +64,7 @@ $ x = 200 dots $
 
 $ senzor = 2500 DPI $
 
-$ X = ?
+$ X = ? $
 
 
 
