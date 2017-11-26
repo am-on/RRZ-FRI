@@ -14,7 +14,7 @@ Preslikava iz 3-D svetovnega koordinatnega sistema (poravnanega s kamero) (X,Y,Z
 
 Kockasta škatla z velikostjo stranice 10𝑐𝑚 z majhno odprtino na pred- nji strani deluje kot kamera z luknjico. Usmerimo jo proti drevesu, ki je od kamere oddaljeno 14𝑚. Kako velika je slika drevesa, ki nastane na zadnji strani škatle, če je drevo visoko 5𝑚?
 
-![1a.png](vaja1/report/1a.png)
+![1a.png](../vaja1/report/1a.png)
 
 $f = 10 cm $
 
