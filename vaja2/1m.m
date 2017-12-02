@@ -7,9 +7,6 @@ sigma = 6.0;
 G = gauss(sigma); 
 D = gaussdx(sigma);
 
-
-
-
 figure();
 subplot(2, 3, 1);
 imshow(I);
@@ -19,12 +16,10 @@ Ig=conv2(I, G, 'same');
 Ig=conv2(Ig, G', 'same');
 imagesc(Ig);
 
-
 subplot(2, 3, 3);
 Ig=conv2(I, G, 'same');
 Ig=conv2(Ig, D', 'same');
 imagesc(Ig);
-
 
 subplot(2, 3, 4);
 Ig=conv2(I, D, 'same');
