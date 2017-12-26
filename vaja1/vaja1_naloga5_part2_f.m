@@ -54,7 +54,7 @@ b = regionprops(labeled,'BoundingBox');
 centroids = cat(1, s.Centroid);
 
 % get a and b from lab
-lab_he = rgb2lab(mask);
+lab_he = rgb2lab(original);
 a_lab = lab_he(:,:,2);
 b_lab = lab_he(:,:,3);
 
